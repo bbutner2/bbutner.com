@@ -1,0 +1,4 @@
+Felix is the recreation of Neal, but in Kotlin. Another bot for Discord, but packed full of features. A tags system, music playing capabilities, etc. He was mainly created to improve upon Neal and to experiment with Kotlin. At some point
+I want to recreate Felix in order to improve is current command structure.
+<br><br>
+Felix is still actively updating and improved, however has been mildly set aside to speed up the development of Juneau.

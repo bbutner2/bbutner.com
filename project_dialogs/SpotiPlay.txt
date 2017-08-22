@@ -1,0 +1,4 @@
+SpotiPlay was created because I moved from Spotify to Google Play Music, and I couldn't find any project out there to easily move playlist between the 2 platforms that still worked. So of course I made my own. It was my first
+project ever in Python and I think it was a success.
+<br><br>
+This is one of my only projects that has been released to the public.

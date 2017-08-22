@@ -1,0 +1,4 @@
+Log Searcher is one of my first ever created projects in an attempt for me to easily input multiple files and output the search results from those files. Its very basic and its life span was even shorter.
+<br><br>
+It was originally made for a gaming community that I was an administrator for. I made multiple tools for that community, the only other which I have a copy of still is the Bans Database which can be found in the
+Web section.

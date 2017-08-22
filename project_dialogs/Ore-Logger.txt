@@ -1,0 +1,2 @@
+Another one of my first ever made projects. Ore Logger was an attempt at me to create a plugin for the game Minecraft. It was very basic and all it did was output and log when a user broke a certain block in the world. It was
+also never released to the public.

@@ -1,0 +1,80 @@
+.languages {
+    margin: 0 auto;
+    width: 75%;
+    height: 400px;
+    display: flex;
+}
+
+.lang-button-wrapper {
+    height: 100%;
+    width: 15%;
+}
+
+.lang-content-wrapper {
+    width: 85%;
+    height: 100%;
+    display: flex;
+}
+
+.lang-button {
+    cursor: pointer;
+    height: 50px;
+    width: 100%;
+    background-color: #dddddd;
+}
+
+.lang-button:not(:last-child), .proj-button:not(:last-child) {
+    border-bottom: 1px solid #efefef;
+}
+
+.lang-button:hover {
+    background-color: #c5c5c5;
+}
+
+.lang-button-active, .lang-button-active:hover {
+    background-color: #009688;
+    color: white;
+}
+
+.project-button-wrapper {
+    height: 100%;
+    width: 15%;
+    border-left: 1px solid #bfbfbf;
+    border-right: 1px solid #bfbfbf;
+}
+
+.proj-button {
+    cursor: pointer;
+    height: 50px;
+    width: 100%;
+    background-color: #dddddd;
+}
+
+#proj-details {
+    max-width: 85%;
+    width: 85%;
+    padding: 10px;
+    font-size: 110%;
+    position: relative;
+}
+
+#proj-details > a {
+    color: black;
+}
+
+.proj-button:hover {
+    background-color: #c5c5c5;
+}
+
+.proj-button-active, .proj-button-active:hover {
+    background-color: #006e60;
+    color: white;
+}
+
+#github {
+    font-size: 150%;
+    position: absolute;
+    bottom: 0;
+    right: 6px;
+    color: rgba(40, 96, 192, 0.7);
+}

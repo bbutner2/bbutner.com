@@ -1,0 +1,9 @@
+Juneau is a bot for <a href="http://discord.gg">Discord</a>, written in Java using the <a href="https://github.com/austinv11/Discord4J">Discord4J</a> API. The bot was created to be used in the DACC Programming
+Discord guild for general purposes and to be able to easily help anyone that may need assistance.
+<br><br>
+Juneau allows a way for users to send commands to the chat, and receive something back. this could be something simple such as listing class information, to something more complex like storing a sentence or image to a
+ database, that can be retrived later on by its specific ID.
+<br><br>
+The DACC Programming Discord is a place where students that are currently enrolled in any Computer Programming courses can come in and ask for help/advice on anything they would like. The main goal of this Discord
+is to help other students that may be falling behind or struggling with concepts, or just in the class in general. The #1 rule is no spoon-feeding, because we want these students to learn how to accomplish their task and
+not just give them the answer.

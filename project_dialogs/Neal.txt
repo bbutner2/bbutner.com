@@ -1,0 +1,3 @@
+Neal is the second attempt at my creation of a Discord bot. The original being undocumented and long abandoned. Neal was incredibly unoptimized, and his command system definitely needed some work.
+<br><br>
+I learned a lot creating Neal, who eventually was converted and improved in Kotlin, and renamed to Felix.

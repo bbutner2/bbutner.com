@@ -1,0 +1,3 @@
+Java was the first language I ever attempted to code in. It started back in Minecraft, just attempting to write simple mods. From there it sprouted into making miscellaneous utilities until it was put on the shelf for a while
+so that I could learn Web programming. When I came back to it, I started writing bots for Discord.<br><br>
+It is by far the language in which I have the most experience in, and its my favorite. If I can, I want to use Java as much as I can once I get into my career.

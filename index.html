@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Beau Butner</title>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/introduction.css">
+    <link rel="stylesheet" href="css/language_browser.css">
+    <link rel="stylesheet" href="css/experience.css">
+</head>
+
+<body>
+    <header>
+        <div><a href="" id="header-link"><h1>Beau Butner</h1></a></div>
+        <div class="nav-buttons-wrapper">
+            <a href="http://github.com/bbutner" class="nav-button centerHoriz">GitHub</a>
+        </div>
+    </header>
+
+    <h2 id="introduction">Introduction</h2>
+
+    <div class="introduction">
+        <div class="introduction-wrapper">
+            <div class="intro-box">
+                <div class="intro-header"><p>About Me</p></div>
+                <p>For starters my name is Beau and I live in Illinois. I'm not going to go into much more detail as to where I live because, well, this is the internet.
+                    My interests and hobbies include programming (obviously), gaming, and occasionally working on my car. Two of those things I think I'm pretty good at, and I'll let you
+                    choose which ones you think they are. If I'm not doing any of those things odds are I'm either at school or work, life is pretty busy it turns out, who knew.
+                    Other miscellaneous things like music interests are rap/mid 2000's rock/classic rock, favorite TV shows are Orange is the New Black, Shameless, Breaking Bad, and a few others.</p>
+            </div>
+            <div class="intro-box">
+                <div class="intro-header"><p>Why Programming?</p></div>
+                <p>Ever since I was little I've always had an interest in anything technology related. I grew up playing Halo on the Xbox, then eventually moved to the PC where I started to play
+                    Minecraft like a lot of other people. It was during this time that I realized that hosting servers and programming were absolutely fascinating to me. Being able to create
+                    something and then share it with the world, albeit a little nerve racking for me, is something that I really wanted to do. I started small in Minecraft, making a pretty basic
+                    plugin called <a href="https://github.com/bbutner/Ore-Logger">Ore-Logger</a> (which I never released). Minecraft is the main reason why I consider Java to be my main programming
+                    language. Although I've dabbled in a few others including Web (HTML/CSS/JS/PHP), Python, C++, and C#, Java has always been what peaked my interest the most.</p>
+            </div>
+        </div>
+    </div>
+
+    <h2 id="programming">Projects</h2>
+
+    <div class="programming">
+        <div class="languages">
+            <div class="lang-button-wrapper">
+                <div class="lang-button centerHoriz" onclick="showLanguageDialog(this)">Java</div>
+                <div class="lang-button centerHoriz" onclick="showLanguageDialog(this)">Kotlin</div>
+                <div class="lang-button centerHoriz" onclick="showLanguageDialog(this)">Web</div>
+                <div class="lang-button centerHoriz" onclick="showLanguageDialog(this)">Python</div>
+            </div>
+            <div class="lang-content-wrapper">
+                <div class="project-button-wrapper">
+                </div>
+                <div id="proj-details">
+                    <a id="github"><i class="fa fa-github" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h2 id="experience">Experience</h2>
+
+    <div class="experience">
+        <div class="graph-wrapper">
+            <div class="bar-wrapper" onclick="showExperienceDialog(this)">
+                <div class="bar-title centerHoriz">Java</div>
+                <div class="bar-entry centerHoriz" id="java">Most Experienced</div>
+            </div>
+            <div class="bar-language-wrapper" id="java-bar"></div>
+
+            <div class="bar-wrapper" onclick="showExperienceDialog(this)">
+                <div class="bar-title centerHoriz">Kotlin</div>
+                <div class="bar-entry centerHoriz" id="kotlin">Novice</div>
+            </div>
+            <div class="bar-language-wrapper" id="kotlin-bar"></div>
+
+            <div class="bar-wrapper" onclick="showExperienceDialog(this)">
+                <div class="bar-title centerHoriz">C#</div>
+                <div class="bar-entry centerHoriz" id="csharp">Beginner</div>
+            </div>
+            <div class="bar-language-wrapper" id="csharp-bar"></div>
+
+            <div class="bar-wrapper" onclick="showExperienceDialog(this)">
+                <div class="bar-title centerHoriz">Web</div>
+                <div class="bar-entry centerHoriz" id="web">Decently Experienced</div>
+            </div>
+            <div class="bar-language-wrapper" id="web-bar"></div>
+
+            <div class="bar-wrapper" onclick="showExperienceDialog(this)">
+                <div class="bar-title centerHoriz">Python</div>
+                <div class="bar-entry centerHoriz" id="python">Beginner</div>
+            </div>
+            <div class="bar-language-wrapper" id="python-bar"></div>
+            <!--<div class="graph-bar-wrapper">-->
+                <!--<div class="bar-entry centerHoriz" id="java" onclick="showExperienceDialog(this)">Most Experienced</div>-->
+                <!--<div class="bar-entry centerHoriz" id="kotlin">Novice</div>-->
+                <!--<div class="bar-entry centerHoriz" id="csharp">Beginner</div>-->
+                <!--<div class="bar-entry centerHoriz" id="web">Decently Experienced</div>-->
+                <!--<div class="bar-entry centerHoriz" id="python">Beginner</div>-->
+            <!--</div>-->
+        </div>
+    </div>
+
+    <footer>
+        <p id="credits">Custom code, no API's/Frameworks used.</p>
+        <p id="copyright">&copy; Beau Butner 2017</p>
+    </footer>
+
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="scripts/language_browser.js"></script>
+    <script src="scripts/experience.js"></script>
+    <script src="https://use.fontawesome.com/0a2ea16466.js"></script>
+</body>
+</html>
