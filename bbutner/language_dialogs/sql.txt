@@ -1,0 +1,1 @@
+I mainly used SQL during my internship at NexLAN. It included basic SELECT statements to view and reconfigure data discrepencies, or modifying table triggers, to writing long and complex Stored Procedures.

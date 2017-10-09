@@ -22,11 +22,11 @@ a {
     text-align: center;
 }
 
-#introduction, #programming, #experience {
+#introduction, #programming, #experience, #work-experience {
     font-weight: bold;
     text-align: center;
     margin: 0;
-    padding: 60px;
+    padding: 80px;
     font-size: 200%;
 }
 

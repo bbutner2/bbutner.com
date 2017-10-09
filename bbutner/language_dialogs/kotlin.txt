@@ -1,0 +1,2 @@
+I have done quite a bit in Kotlin. Almost the entirety of my experience with it came from making Felix, my bot for Discord. I really like how its
+just a lot less wordy version of Java, and I eventually want to use it to create Android applications.

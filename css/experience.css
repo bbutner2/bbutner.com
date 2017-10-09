@@ -69,6 +69,11 @@
     color: #464646;
 }
 
+#sql {
+    background-color: #ee362d;
+    width: 25%;
+}
+
 .bar-language-wrapper {
     background-color: #383838;
     /*height: 20px;*/
@@ -80,4 +85,38 @@
 .bar-language-wrapper > p {
     margin: 0;
     padding: 10px;
+}
+
+.work-experience-wrapper {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.work-bar {
+    height: 100px;
+    width: 100%;
+    background-color: #dddddd;
+    display: flex;
+}
+
+.work-bar:not(:last-of-type) {
+    margin-bottom: 10px;
+}
+
+.work-title {
+    height: 100%;
+    width: 15%;
+    background-color: #e6e6e6;
+}
+
+.work-description {
+    height: 100%;
+    width: 70%;
+    padding: 0 20px 0 20px;
+}
+
+.work-year {
+    height: 100%;
+    width: 15%;
+    background-color: #e6e6e6;
 }

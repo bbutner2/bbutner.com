@@ -1,0 +1,1 @@
+Most of my experience with C# comes from class, however I have made a few side projects of my own a long time ago.

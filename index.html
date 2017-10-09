@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="css/introduction.css">
     <link rel="stylesheet" href="css/language_browser.css">
     <link rel="stylesheet" href="css/experience.css">
+
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="scripts/language_browser.js"></script>
+    <script src="scripts/experience.js"></script>
+    <script src="https://use.fontawesome.com/0a2ea16466.js"></script>
 </head>
 
 <body>
@@ -61,7 +66,7 @@
         </div>
     </div>
 
-    <h2 id="experience">Experience</h2>
+    <h2 id="experience">Programming Experience</h2>
 
     <div class="experience">
         <div class="graph-wrapper">
@@ -94,6 +99,28 @@
                 <div class="bar-entry centerHoriz" id="python">Beginner</div>
             </div>
             <div class="bar-language-wrapper" id="python-bar"></div>
+
+            <div class="bar-wrapper" onclick="showExperienceDialog(this)">
+                <div class="bar-title centerHoriz">Trans-SQL</div>
+                <div class="bar-entry centerHoriz" id="sql">Novice</div>
+            </div>
+        </div>
+    </div>
+
+    <h2 id="work-experience">Work Experience</h2>
+
+    <div class="work-experience-wrapper">
+        <div class="work-bar">
+            <div class="work-title centerHoriz">Meijer</div>
+            <div class="work-description centerHoriz"><p>Mostly I was a shelf stocker. Take a cart from the back room out to the floor, get as much out as I can, rinse
+                and repeat. Also required to provide excellent customer support, which I did so to the T. Always had a smile on my face, and as respectful
+                as I can be. Acquired OSHA HiLo certification.</p></div>
+            <div class="work-year centerHoriz">2016 - Current</div>
+        </div>
+        <div class="work-bar"> 
+            <div class="work-title centerHoriz">NexLAN</div>
+            <div class="work-description centerHorix"><p>Intern.</p></div> 
+            <div class="work-year centerHoriz">2017 - Current</div>
         </div>
     </div>
 
@@ -101,10 +128,5 @@
         <p id="credits">Custom code, no API's/Frameworks used.</p>
         <p id="copyright">&copy; Beau Butner 2017</p>
     </footer>
-
-    <script src="jquery-3.2.1.min.js"></script>
-    <script src="scripts/language_browser.js"></script>
-    <script src="scripts/experience.js"></script>
-    <script src="https://use.fontawesome.com/0a2ea16466.js"></script>
 </body>
 </html>

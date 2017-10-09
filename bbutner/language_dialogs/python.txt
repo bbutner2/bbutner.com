@@ -1,0 +1,2 @@
+Learning Python was different at first, as I'm used to using {} in my code. As soon as I got over that it was on to learn the other different syntax
+differences. My main goal with Python was to create an application that automatically transferred my Playlists from Spotify over to Google Play Music.
