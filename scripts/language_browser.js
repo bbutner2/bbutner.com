@@ -1,6 +1,3 @@
-$(document.getElementsByClassName('lang-button')[0]).click();
-$(document.getElementsByClassName('proj-button')[0]).click();
-
 function showLanguageDialog(button) {
     var java_projects = ["Juneau", "Log Searcher", "Neal", "Ore-Logger"];
     var kotlin_projects = ["Felix"];
