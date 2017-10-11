@@ -6,6 +6,11 @@
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+    color: #464646;
+}
+
 body {
     margin: 0;
     font-family: Ubuntu;
